@@ -1,0 +1,75 @@
+[
+  {
+    "user_id": "U001",
+    "event_type": "page_view",
+    "page_url": "https://example.com/products/laptop",
+    "timestamp": "2024-01-15T10:30:00Z",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "ip_address": "192.168.1.100",
+    "session_id": "SESS_12345",
+    "referrer": "https://google.com/search?q=laptop",
+    "device_type": "desktop",
+    "location": {
+      "country": "US",
+      "city": "New York",
+      "timezone": "America/New_York"
+    }
+  },
+  {
+    "user_id": "U002",
+    "event_type": "purchase",
+    "product_id": "PROD_789",
+    "product_name": "Wireless Headphones",
+    "price": 99.99,
+    "currency": "USD",
+    "timestamp": "2024-01-15T11:15:30Z",
+    "payment_method": "credit_card",
+    "shipping_address": {
+      "street": "123 Main St",
+      "city": "Los Angeles",
+      "state": "CA",
+      "zip": "90210",
+      "country": "US"
+    },
+    "order_id": "ORD_45678"
+  },
+  {
+    "user_id": "U003",
+    "event_type": "search",
+    "search_query": "wireless earbuds",
+    "timestamp": "2024-01-15T12:00:00Z",
+    "results_count": 24,
+    "filters_applied": {
+      "price_range": "50-150",
+      "brand": "Sony",
+      "rating": "4+ stars"
+    },
+    "session_id": "SESS_67890"
+  },
+  {
+    "user_id": "U004",
+    "event_type": "add_to_cart",
+    "product_id": "PROD_456",
+    "product_name": "Smart Watch",
+    "price": 299.99,
+    "currency": "USD",
+    "timestamp": "2024-01-15T13:45:15Z",
+    "quantity": 1,
+    "session_id": "SESS_11111",
+    "source": "product_page"
+  },
+  {
+    "user_id": "U005",
+    "event_type": "user_registration",
+    "email": "user5@example.com",
+    "timestamp": "2024-01-15T14:20:00Z",
+    "registration_source": "organic_search",
+    "marketing_consent": true,
+    "profile_data": {
+      "first_name": "John",
+      "last_name": "Doe",
+      "age_group": "25-34",
+      "interests": ["technology", "fitness", "travel"]
+    }
+  }
+]
